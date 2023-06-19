@@ -1,0 +1,30 @@
+{
+  "name": "my_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allex-24/my-webpack.git"
+  },
+  "author": "Allex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Allex-24/my-webpack/issues"
+  },
+  "homepage": "https://github.com/Allex-24/my-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
