@@ -25,10 +25,4 @@ module.exports = {
       filename: 'style.css',
     }),
   ],
-  devServer: {
-		static: {
-			directory: path.join(__dirname, 'dist'),
-		},
-		port: 8080,
-	},
 };
